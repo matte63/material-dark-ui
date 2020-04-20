@@ -14,31 +14,33 @@
     &.selected {
       color: @text-color-selected;
       background-color: @background-color-selected;
-      &:before{ display: none; }
+
+      &:before {
+        display: none;
+      }
     }
   }
 }
 
-
 // List Tree -------------------
 .list-tree {
   color: @text-color;
+
   .selected {
     color: @text-color-selected;
   }
 }
-
 
 // Select List -------------------
 .select-list {
   li {
     padding: @component-padding/2 @component-padding;
   }
+
   .status {
     float: right;
   }
 }
-
 
 // Popover List -------------------
 // Used as a popover for something like autocomplete.
@@ -52,6 +54,7 @@
 
   .list-group {
     margin-top: @popover-list-padding;
+
     li {
       padding-left: @popover-list-padding;
     }
